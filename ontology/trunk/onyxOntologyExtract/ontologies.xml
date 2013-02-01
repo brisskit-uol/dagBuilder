@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ontologies>
+	<ontology onyx_prefix="SM" bioportal_id="1353" description="SNOMED-CT" add_prefix="" />
+	<ontology onyx_prefix="IC" bioportal_id="1516" description="ICD10" find="_" replace="." add_prefix="" />
+	<ontology onyx_prefix="HP" bioportal_id="1125" description="HPO" add_prefix="HP:" />
+	<ontology onyx_prefix="LC" bioportal_id="1350" description="LOINC" add_prefix="" />
+</ontologies>

@@ -1,0 +1,31 @@
+README
+******
+
+INSTALL
+*******
+
+To install the onyxOntologyExtract script and dependencies you should be able to use the makefile.
+
+$ sudo apt-get install libxml-sax-expat-perl
+$ perl Makefile.pl
+$ make
+$ make test
+$ sudo make install
+
+All regression tests should pass. They indicate that all dependencies are installed and files are generated in the correct locations.
+
+USAGE
+*****
+
+The arguments available to onyxOntologyExtract.pl are available using:
+
+$ perl onyxOntologyExtract.pl --help
+
+Example: extract all codes from ZIP files in a directory in home in to a single code_file.txt:
+
+mkdir ~/code_output
+perl onyxOntologyExtract.pl ~/onyx_archives ~/code_output
+
+more info to come about formats etc.
+
+
